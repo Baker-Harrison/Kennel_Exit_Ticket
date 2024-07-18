@@ -18,9 +18,10 @@ int Kennel::kennelCount = 0;
 
 
 
-void Kennel::add(Dog &d) {
+void Kennel::add(Dog d) {
 	kennelCount++;
-	*(dogs - 1) = d;
+	dogs[kennelCount - 1] = d;
+
 }
 
 
@@ -51,7 +52,7 @@ void Kennel::printDogs()
 {
 	for (int i = 0; i < kennelCount; i++)
 	{
-		cout << "Dog " << i + 1 << endl << "Name: " << dogs[i].getName() << endl << "---------------------------" << endl;
+		cout << "Dog " << i + 1 << endl << "Name: " << dogs[i].getName() << endl << "Age: " << dogs[i].getAge() <<  endl << "Breed: " << dogs[i].getBreed() << endl << "---------------------------" << endl;
  	}
 }
 

@@ -17,11 +17,13 @@ kennel.add(dog);
 kennel.printDogs();
 
 
-cout << "Updated Kennel count: " << Kennel::getKennelCount() << endl;
+cout << "Updated Kennel count: " << Kennel::getKennelCount() << endl << endl;
 
-kennel.adoptDog();
+Dog adoptedDog1 = kennel.adoptDog();
+Dog adoptedDog2 =  kennel.adoptDog();
 
 
+cout << "Final Kennel count: " << Kennel::getKennelCount() << endl;
 
 
 
