@@ -15,9 +15,10 @@ private:
 	Dog* dogs = new Dog[kennelCount];
 
 public:
-	void add(Dog d);
-	void remove(int index);
-	void adoptDog();
+	void add(Dog &d);
+	Dog adoptDog();
+
+	void printDogs();
 
 
 	static int getKennelCount();

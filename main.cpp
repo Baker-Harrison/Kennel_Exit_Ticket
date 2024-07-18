@@ -4,19 +4,25 @@
 int main() {
 
 
-cout <<  Kennel::getKennelCount() << endl;
+
+cout << "Initial Kennel count: " << Kennel::getKennelCount() << endl << endl;
 
 Dog dog (3, "Bear", "Australian Shepherd");
 
 
 Kennel kennel;
 kennel.add(dog);
+kennel.add(dog);
 
-cout <<  Kennel::getKennelCount() << endl;
+kennel.printDogs();
+
+
+cout << "Updated Kennel count: " << Kennel::getKennelCount() << endl;
 
 kennel.adoptDog();
 
-cout <<  Kennel::getKennelCount() << endl;
+
+
 
 
 

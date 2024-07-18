@@ -18,19 +18,41 @@ int Kennel::kennelCount = 0;
 
 
 
-void Kennel::add(Dog d) {
+void Kennel::add(Dog &d) {
 	kennelCount++;
+	*(dogs - 1) = d;
 }
 
 
 
-void Kennel::adoptDog() {
+
+
+
+Dog Kennel::adoptDog() {
+
+
 
 	if (kennelCount > 0)
 	{
-		kennelCount--;
- 	}
 
+		kennelCount--;
+		return dogs[kennelCount];
+ 	}
+	else
+	{
+		return Dog(5, "Jack", "Poodle");
+	}
+
+}
+
+
+
+void Kennel::printDogs()
+{
+	for (int i = 0; i < kennelCount; i++)
+	{
+		cout << "Dog " << i + 1 << endl << "Name: " << dogs[i].getName() << endl << "---------------------------" << endl;
+ 	}
 }
 
 
