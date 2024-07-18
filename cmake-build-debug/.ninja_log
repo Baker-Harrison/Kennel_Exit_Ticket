@@ -1,0 +1,25 @@
+# ninja log v6
+2	68	1721326788410206439	build.ninja	f16600f7f43eab0e
+1	648	1721326788419071869	CMakeFiles/Kennel_Exit_Ticket.dir/src/Kennel.cpp.o	2b5ea769829beed0
+1	651	1721326788418514287	CMakeFiles/Kennel_Exit_Ticket.dir/main.cpp.o	cb16772fe1e810fe
+1	651	1721326788418911952	CMakeFiles/Kennel_Exit_Ticket.dir/src/Dog.cpp.o	6f96c39640bdb618
+18	599	1721327034376998623	CMakeFiles/Kennel_Exit_Ticket.dir/main.cpp.o	cb16772fe1e810fe
+19	600	1721327034377757537	CMakeFiles/Kennel_Exit_Ticket.dir/src/Kennel.cpp.o	2b5ea769829beed0
+13	658	1721327834894357030	CMakeFiles/Kennel_Exit_Ticket.dir/main.cpp.o	cb16772fe1e810fe
+8	654	1721327888993816551	CMakeFiles/Kennel_Exit_Ticket.dir/main.cpp.o	cb16772fe1e810fe
+10	586	1721327953116630169	CMakeFiles/Kennel_Exit_Ticket.dir/src/Kennel.cpp.o	2b5ea769829beed0
+9	586	1721327953115757294	CMakeFiles/Kennel_Exit_Ticket.dir/main.cpp.o	cb16772fe1e810fe
+586	641	1721327953693537938	Kennel_Exit_Ticket	f6042953d4ed8051
+11	356	1721327964352439350	CMakeFiles/Kennel_Exit_Ticket.dir/main.cpp.o	cb16772fe1e810fe
+356	395	1721327964697256861	Kennel_Exit_Ticket	f6042953d4ed8051
+9	594	1721328147960753294	CMakeFiles/Kennel_Exit_Ticket.dir/main.cpp.o	cb16772fe1e810fe
+9	595	1721328147961646752	CMakeFiles/Kennel_Exit_Ticket.dir/src/Kennel.cpp.o	2b5ea769829beed0
+27	681	1721328278664419626	CMakeFiles/Kennel_Exit_Ticket.dir/src/Dog.cpp.o	6f96c39640bdb618
+9	303	1721328328101932787	CMakeFiles/Kennel_Exit_Ticket.dir/src/Kennel.cpp.o	2b5ea769829beed0
+8	307	1721328328101026037	CMakeFiles/Kennel_Exit_Ticket.dir/main.cpp.o	cb16772fe1e810fe
+21	367	1721328358869752295	CMakeFiles/Kennel_Exit_Ticket.dir/src/Dog.cpp.o	6f96c39640bdb618
+367	424	1721328359215026181	Kennel_Exit_Ticket	f6042953d4ed8051
+9	639	1721328471373154575	CMakeFiles/Kennel_Exit_Ticket.dir/main.cpp.o	cb16772fe1e810fe
+639	696	1721328472003211907	Kennel_Exit_Ticket	f6042953d4ed8051
+8	348	1721328481326276667	CMakeFiles/Kennel_Exit_Ticket.dir/main.cpp.o	cb16772fe1e810fe
+348	386	1721328481666435551	Kennel_Exit_Ticket	f6042953d4ed8051
